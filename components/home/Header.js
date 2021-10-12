@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
     flexDirection: "row",
-    marginTop: 6,
+    marginTop: 30,
   },
   logo: {
     width: 100,
