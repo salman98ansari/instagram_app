@@ -11,7 +11,7 @@ const Stories = () => {
             <Image source={{ uri: story.image }} style={styles.story} />
             <Text style={{ color: "#FFF" }}>
               {story.user.length > 8
-                ? story.user.slice(0, 6).toLowerCase() + "..."
+                ? story.user.slice(0, 10).toLowerCase() + "..."
                 : story.user.toLowerCase()}
             </Text>
           </View>
