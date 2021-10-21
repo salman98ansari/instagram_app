@@ -16,8 +16,8 @@ const HomeScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
       <Header />
-      <Stories />
       <ScrollView>
+        <Stories />
         {POSTS.map((post, index) => (
           <Postsss post={post} key={index} />
         ))}
