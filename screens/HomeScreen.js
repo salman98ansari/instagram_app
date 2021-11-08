@@ -7,6 +7,7 @@ import {
   StatusBar,
   ScrollView,
 } from "react-native";
+import BottomTabs, { bottomTabIcons } from "../components/home/BottomTabs";
 import Header from "../components/home/Header";
 import Postsss from "../components/home/Post";
 import Stories from "../components/home/Stories";
@@ -22,6 +23,7 @@ const HomeScreen = () => {
           <Postsss post={post} key={index} />
         ))}
       </ScrollView>
+      <BottomTabs icons={bottomTabIcons} />
     </SafeAreaView>
   );
 };
